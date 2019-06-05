@@ -38,5 +38,5 @@ MONGODB_POST = 27017
 # # 设置优先级
 # SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
 
-# REDIS_HOST = '188.131.212.24'
+# REDIS_HOST = 'redis的host'
 # REDIS_POST = 6379
