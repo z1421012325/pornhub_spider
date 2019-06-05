@@ -10,7 +10,7 @@ ROBOTSTXT_OBEY = False
 # log输出等级
 LOG_LEVEL = 'WARNING'
 # 爬虫运行多久关闭
-CLOSESPIDER_TIMEOUT = 86400   # 24小时*3600秒 = 86400
+# CLOSESPIDER_TIMEOUT = 86400   # 24小时*3600秒 = 86400
 # DOWNLOAD_DELAY = 2
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
