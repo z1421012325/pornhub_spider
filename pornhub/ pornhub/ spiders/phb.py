@@ -113,7 +113,7 @@ class PhbSpider(scrapy.Spider):
             elif '"quality":"240"' in response.text:
                 video_url = re.findall('"quality":"240","videoUrl":"(.*?)"},', response.text, re.S | re.I)[0]
         except:
-            video_url = None
+            # video_url = None
             with open('erorr_request.txt','a')as f:
                 f.write(title+','+link_url)
                 f.write('\n')
